@@ -190,3 +190,5 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
+
+# At the end of every script run the hard_reset_code to exit from motor braking

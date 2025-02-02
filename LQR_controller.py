@@ -18,7 +18,7 @@ length = 75 / 1000  # Length in meters
 max_motor_torque = 0.035  # Constrained Motor Torque Limit in Nm
 B = 0.0  # Damping term for dynamics
 desired_angle = 180 # desired angle in degrees
-lqr_angle_threshold = 5 # threshold angle in degrees from the upright position where lqr controller will be applied
+lqr_angle_threshold = 15 # threshold angle in degrees from the upright position where lqr controller will be applied
 
 inertia = mass * length**2  # Moment of inertia
 
